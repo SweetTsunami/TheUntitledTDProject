@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfaf4528784674458f3de8aa530b871, type: 3}
+  m_Name: Wave_pattern_2
+  m_EditorClassIdentifier: 
+  name: Basic
+  description: First testing wave pattern
+  waveSetup:
+  - attackerSetup:
+    - attackerPrefab: {fileID: 1057288892461524, guid: 58eb5cb11048e5e4c93bc664c0284730,
+        type: 2}
+      ammount: 1
+      spawnRate: 2
+  - attackerSetup: []
+  - attackerSetup:
+    - attackerPrefab: {fileID: 1057288892461524, guid: 58eb5cb11048e5e4c93bc664c0284730,
+        type: 2}
+      ammount: 1
+      spawnRate: 2
+    - attackerPrefab: {fileID: 1057288892461524, guid: 96c646830f1e57d4e9cd507a930d2054,
+        type: 2}
+      ammount: 3
+      spawnRate: 1
+    - attackerPrefab: {fileID: 1057288892461524, guid: 58eb5cb11048e5e4c93bc664c0284730,
+        type: 2}
+      ammount: 2
+      spawnRate: 2

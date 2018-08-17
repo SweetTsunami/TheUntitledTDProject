@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4407295135062284}
   - component: {fileID: 33603001082270050}
   - component: {fileID: 23298677828639546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Solar Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4843202502380330}
   - component: {fileID: 33854842523497372}
   - component: {fileID: 23673033214763074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Solar Panel_pallete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4679893939244078}
   - component: {fileID: 33773181927763288}
   - component: {fileID: 23344177921451340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chimney
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4159532492438308}
   - component: {fileID: 33549939196148836}
   - component: {fileID: 23755121156798310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Connector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4527634451906266}
   - component: {fileID: 33484082904299870}
   - component: {fileID: 23307379799097346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,9 +107,9 @@ GameObject:
   - component: {fileID: 114963678458693266}
   - component: {fileID: 65972617030318712}
   - component: {fileID: 114412435645766198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terran_PowerField_Tower
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 4277180082844452}
   - component: {fileID: 33814705147230746}
   - component: {fileID: 23273259148690976}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

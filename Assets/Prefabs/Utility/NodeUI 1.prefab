@@ -2385,10 +2385,10 @@ MonoBehaviour:
   towerBlueprints:
   - name: TowerSlot1
     description: exampleDesc
-    prefab: {fileID: 0}
+    prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}
   - name: exampleName
     description: exampleDesc
-    prefab: {fileID: 0}
+    prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}
   - name: Missile Pod
     description: Terran_Missile_Pod
     prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}

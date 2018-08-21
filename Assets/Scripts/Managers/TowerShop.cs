@@ -63,7 +63,7 @@ public class TowerShop : MonoBehaviour
     {        
         // Finds the tower
         GameObject towerToBuildGO = towerBlueprints[index].prefab;
-        Tower towerToBuild = towerToBuildGO.GetComponent<Tower>();
+        Structure towerToBuild = towerToBuildGO.GetComponent<Structure>();
 
         // Money check
         if (GameMaster.Money < towerToBuild.buildCost)
@@ -76,7 +76,7 @@ public class TowerShop : MonoBehaviour
 
         // Instantiates tower on node and gets it's Tower component so it's possible to link them
         towerGO =  Instantiate(towerToBuildGO, SelectedNode.GetBuildPosition(), Quaternion.identity);
-        Tower spawnedTower = towerGO.GetComponent<Tower>();
+        Structure spawnedTower = towerGO.GetComponent<Structure>();
         spawnedTower.LinkNode(SelectedNode);
 
         // changes to node
@@ -98,8 +98,8 @@ public class TowerShop : MonoBehaviour
     public void UpgradeTower(int index)
     {
         // Find the prefab to build
-        GameObject towerToBuildGO = SelectedNode.towerOnThisNode.upgradedTowerPrefabs[index];
-        Tower towerToBuild = towerToBuildGO.GetComponent<Tower>();
+        GameObject towerToBuildGO = SelectedNode.towerOnThisNode.UpgradedStructuresPrefabs[index];
+        Structure towerToBuild = towerToBuildGO.GetComponent<Structure>();
 
         if (GameMaster.Money < towerToBuild.buildCost)
         {
@@ -115,7 +115,7 @@ public class TowerShop : MonoBehaviour
 
         // build new one
         towerGO = Instantiate(towerToBuildGO, SelectedNode.GetBuildPosition(), Quaternion.identity);
-        Tower spawnedTower = towerGO.GetComponent<Tower>();
+        Structure spawnedTower = towerGO.GetComponent<Structure>();
         spawnedTower.LinkNode(SelectedNode);
 
         DeselectNode();

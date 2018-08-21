@@ -215,7 +215,7 @@ public class WaveSpawner : MonoBehaviour
     void SpawnAttacker(GameObject attackerPrefab, Transform spawnPoint,Quaternion rotation)
     {
         GameObject enemyGO = Instantiate(attackerPrefab, spawnPoint.position, transform.rotation);
-        Attacker attacker = enemyGO.GetComponent<Attacker>();
+        Unit attacker = enemyGO.GetComponent<Unit>();
         attacker.SetTarget(spawnRulesManager.targetPoint.transform);
     }
 }

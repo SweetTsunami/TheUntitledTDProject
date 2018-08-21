@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Turret
   - TargetPoint
   - Inventory
   - Projectile
+  - Unit
+  - Structure
+  - Enemy
+  - Turret
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,7 @@ public class Node : MonoBehaviour
     public bool isPowered = false;
 
     [HideInInspector]
-    public Tower towerOnThisNode;
+    public Structure towerOnThisNode;
     public TowerShop towerShop;
 
     // offset position for building towers
@@ -47,14 +47,6 @@ public class Node : MonoBehaviour
 
     void Update()
     {
-        if (isPowered)
-        {
-            rend.material = hoverColor;
-        }
-        else
-        {
-            rend.material = startColor;
-        }
     }
     /// <summary>
     /// Moves and chooses the correct UI to build or upgrade towers
@@ -75,7 +67,14 @@ public class Node : MonoBehaviour
     /// </summary>
     void OnMouseEnter()
     {
-        rend.material = hoverColor;
+		if (isPowered)
+		{
+			rend.material = poweredColor;
+		}
+		else
+		{
+			rend.material = hoverColor;
+		}
     }
 
     /// <summary>

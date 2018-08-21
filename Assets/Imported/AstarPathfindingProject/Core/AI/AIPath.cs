@@ -40,7 +40,7 @@ using Pathfinding.Util;
 [HelpURL("http://arongranberg.com/astar/docs/class_a_i_path.php")]
 public class AIPath : AIBase {
     // My custom stuff (ALEX)
-    private Attacker attacker;
+    private Unit attacker;
 
 	/** Determines how often it will search for new paths.
 	 * If you have fast moving targets or AIs, you might want to set it to a lower value.
@@ -130,7 +130,7 @@ public class AIPath : AIBase {
 	 * \see #Init
 	 */
 	protected virtual void Start () {
-        attacker = GetComponent<Attacker>();
+        attacker = GetComponent<Unit>();
 		startHasRun = true;
 		Init();
 	}

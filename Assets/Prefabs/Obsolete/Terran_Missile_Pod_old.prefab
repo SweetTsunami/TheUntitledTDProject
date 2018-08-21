@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 114185075487997668}
   - component: {fileID: 65942114248443360}
   m_Layer: 10
-  m_Name: Terran_Missile_Pod
+  m_Name: Terran_Missile_Pod_old
   m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -178,7 +178,8 @@
     <Compile Include="Assets\Scripts\GameUnits\Core\Units\Wave.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_BallisticSystem.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_EnergySystem.cs" />
-    <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_Missile_Pod.cs" />
+    <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_PlasmaThrower.cs" />
+    <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_RocketLauncher.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier2\Terran_Mortar.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier3\Terran_155mm_artillery.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier3\Terran_Gauss_Cannon.cs" />

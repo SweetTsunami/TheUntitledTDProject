@@ -1,64 +1,29 @@
 fileFormatVersion: 2
-guid: ade7721acbb6ec047ac13bb1d6aa17e3
+guid: 4943b2e33c2614c4eb6641b4c4cf1643
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Hydraulics
-    100002: Launcher Platform
-    100004: Launchers
-    100006: Legs
-    100008: Main
-    100010: Platform
-    100012: RotatingPart
-    100014: //RootNode
-    400000: Hydraulics
-    400002: Launcher Platform
-    400004: Launchers
-    400006: Legs
-    400008: Main
-    400010: Platform
-    400012: RotatingPart
-    400014: //RootNode
-    2100000: Rotating Platform Color
-    2100002: Hydraulics Metal 1
-    2100004: Hydraulics Color 2
-    2100006: Hydraulics Color 1
-    2100008: Base
-    2100010: Main Color 2
-    2100012: Main Color 1
-    2100014: LauncherP Color 1
-    2100016: LauncherP Color 2
-    2100018: Launcher Color 1
-    2100020: Launcher Color 2
-    2100022: Launcher Inner Color
-    2100024: Legs Color
-    2100026: Platform Color 2
-    2100028: Platform Color 1
-    2300000: Hydraulics
-    2300002: Launcher Platform
-    2300004: Launchers
-    2300006: Legs
-    2300008: Main
-    2300010: Platform
-    2300012: RotatingPart
-    3300000: Hydraulics
-    3300002: Launcher Platform
-    3300004: Launchers
-    3300006: Legs
-    3300008: Main
-    3300010: Platform
-    3300012: RotatingPart
-    4300000: RotatingPart
-    4300002: Hydraulics
-    4300004: Main
-    4300006: Launcher Platform
-    4300008: Launchers
-    4300010: Legs
-    4300012: Platform
-    7400000: Launcher Platform|LaunchersAction
-    7400002: Launcher Platform|MainAction
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: Base
+    100002: Gun
+    100004: Platform
+    100006: //RootNode
+    400000: Base
+    400002: Gun
+    400004: Platform
+    400006: //RootNode
+    2100000: Secondary Color
+    2100002: Primary Color
+    2100004: Black
+    2100006: Lens
+    2300000: Base
+    2300002: Gun
+    2300004: Platform
+    3300000: Base
+    3300002: Gun
+    3300004: Platform
+    4300000: Gun
+    4300002: Base
+    4300004: Platform
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -115,7 +80,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -134,7 +99,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -89,7 +89,6 @@ public class ProjectileFireSystem : MonoBehaviour
 
 		if (nearestTarget != null && shortestDistance <= range)
 		{
-			Debug.Log(gameObject + " found " + target);
 			target = nearestTarget;
 			LockOnTarget();
 		}

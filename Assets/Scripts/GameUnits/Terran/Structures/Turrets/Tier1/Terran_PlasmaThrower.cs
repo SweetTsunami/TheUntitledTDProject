@@ -1,4 +1,4 @@
-﻿/*  File:       Terran_Missile_Pod
+﻿/*  File:       Terran_PlasmaThrower
  *  Creator:   Alexander Semenov
  *  Date:       
  *  Location:   Brno, Czech Republic
@@ -11,7 +11,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Terran_Missile_Pod : Structure
+public class Terran_PlasmaThrower : Structure
 {
 		
 }

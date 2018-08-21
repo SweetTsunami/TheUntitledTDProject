@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 114584660698885546}
   - component: {fileID: 65600029432827980}
   m_Layer: 0
-  m_Name: Terran_Scout_Car
+  m_Name: Terran_ScoutCar
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

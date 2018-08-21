@@ -1,4 +1,4 @@
-﻿/*  File:       Terran_Vehicles
+﻿/*  File:       Terran_Missile_Pod
  *  Creator:   Alexander Semenov
  *  Date:       
  *  Location:   Brno, Czech Republic
@@ -11,8 +11,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Terran_ScoutCar : Vehicle
+public class Terran_RocketLauncher : Structure
 {
 		
-	//something
 }

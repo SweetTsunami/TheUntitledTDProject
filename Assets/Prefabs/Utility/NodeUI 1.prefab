@@ -2383,22 +2383,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerBlueprints:
-  - name: TowerSlot1
-    description: exampleDesc
-    prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}
-  - name: exampleName
-    description: exampleDesc
-    prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}
-  - name: Missile Pod
-    description: Terran_Missile_Pod
-    prefab: {fileID: 1552965245266866, guid: cab69d02b926fa84a88346d05a7e8d38, type: 2}
-  - name: Laser 3D
-    description: Terran Laser
-    prefab: {fileID: 1155700494474782, guid: 8d2773c99a4a65a43948f02bd6879c16, type: 2}
+  - name: BalisticSystem
+    description: Basic tower, doesn't need energy
+    prefab: {fileID: 1391163325732152, guid: 618064fce3311a34ba1794dabbd1dcf0, type: 2}
+  - name: EnergySystem
+    description: Improvised Laser Defense
+    prefab: {fileID: 1459343966749636, guid: 61615ffaacc133748b01a1ffdc5a2c63, type: 2}
+  - name: RocketLauncher
+    description: Shoots rockets
+    prefab: {fileID: 1446828578992300, guid: dae763e31f7b18b4ea9afd35548b2443, type: 2}
+  - name: PlasmaThrower
+    description: Shreds Armor
+    prefab: {fileID: 1980190499595468, guid: eae5a3557bd982647bd862a2cccb131f, type: 2}
   - name: mining tower
     description: mines laser
     prefab: {fileID: 1167206904268556, guid: 2bb4943c8fdec82469713822441fc3fe, type: 2}
-  - name: powerfield tower
+  - name: PowerBase
     description: creates a powerfield
     prefab: {fileID: 1778591647757722, guid: b7eb42fdc523d904480f5d24df674307, type: 2}
   buildEffect: {fileID: 1159101445695130, guid: 07061a0cf6bd8454f91d156e54e62aea,

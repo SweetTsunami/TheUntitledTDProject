@@ -33,7 +33,7 @@ public class Structure : GameUnit
     public void LinkNode(Node _node)
     {
         node = _node;
-        node.towerOnThisNode = this;
+        node.structureOnThisNode = this;
 	}
 
     /// <summary>

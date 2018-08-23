@@ -19,6 +19,7 @@ public class Node : MonoBehaviour
 {// I changed this
     // Color Setup
     private Renderer rend;
+	private MeshRenderer meshRenderer;
     private Material startColor;
     public Material hoverColor;
     public Material poweredColor;
@@ -30,11 +31,10 @@ public class Node : MonoBehaviour
     public bool isPowered = false;
 
     [HideInInspector]
-    public Structure towerOnThisNode;
-    public TowerShop towerShop;
+    public Structure structureOnThisNode;
 
     // offset position for building towers
-    public Vector3 positionOffset;
+    public Transform positionOffset;
 
     /// <summary>
     /// Gets the renderer component and sets starting color, to which it will return when not highlighted
@@ -42,12 +42,11 @@ public class Node : MonoBehaviour
     private void Start()
     {
         rend = GetComponent<Renderer>();
-        startColor = rend.material;
+		meshRenderer = GetComponent<MeshRenderer>();
+		meshRenderer.enabled = false;
+		startColor = rend.material;
     }
-
-    void Update()
-    {
-    }
+	
     /// <summary>
     /// Moves and chooses the correct UI to build or upgrade towers
     /// </summary>
@@ -57,9 +56,15 @@ public class Node : MonoBehaviour
         if (EventSystem.current.IsPointerOverGameObject())
         {
             return;
-        }        
-
-        towerShop.SelectNode(this);
+        }
+		if (UIManager_battle.SelectedNode == this)
+		{
+			UIManager_battle.SelectedNode = null;
+		}
+		else
+		{
+			UIManager_battle.SelectedNode = this;
+		}
     }
 
     /// <summary>
@@ -67,6 +72,7 @@ public class Node : MonoBehaviour
     /// </summary>
     void OnMouseEnter()
     {
+		meshRenderer.enabled = true;
 		if (isPowered)
 		{
 			rend.material = poweredColor;
@@ -82,6 +88,7 @@ public class Node : MonoBehaviour
     /// </summary>
     void OnMouseExit()
     {
+		meshRenderer.enabled = false;
         rend.material = startColor;
     }    
 
@@ -89,8 +96,8 @@ public class Node : MonoBehaviour
     /// offsets the building of turret a little so it's not in the envirovment
     /// </summary>
     /// <returns></returns>
-    public Vector3 GetBuildPosition()
+    public Transform GetBuildPosition()
     {
-        return transform.position + positionOffset;
+        return gameObject.transform/* + positionOffset*/;
     }    
 }

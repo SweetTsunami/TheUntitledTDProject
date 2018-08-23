@@ -45,8 +45,6 @@ public class GameUnit : MonoBehaviour
 	
 	[Header("Inventory")]
     protected Inventory inventory;
-	public Tech usedTechs;
-	// public List<Tech> usedTechs = new List<Tech>();
 
     private bool isAlive = true;
     void Awake()

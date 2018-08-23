@@ -9,8 +9,6 @@ TagManager:
   - Projectile
   - Unit
   - Structure
-  - Enemy
-  - Turret
   layers:
   - Default
   - TransparentFX

@@ -26,6 +26,7 @@ public class Projectile : MonoBehaviour
 	///     explosionRadius  - radius of explosion, if set to 0, no explosion occurs
 	/// </summary>
 	private float damage = 0, speed = 10, explosionRadius = 0f;
+	public bool ignoresArmor = false;
 	public DamageType damageType;
     public void SetParameters(float _damage, float _speed, float _explosionRadius)
     {

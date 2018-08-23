@@ -17,7 +17,7 @@ using System.Collections.Generic;
 public class TerritoryManager : MonoBehaviour
 {
     public TerritoryTemplate_SO selectedTerritoryTemplate;
-    public UIManager uiManager;
+    public UIManager_world uiManager;
     
     
 

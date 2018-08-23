@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -19,12 +19,12 @@ MonoBehaviour:
         type: 2}
       ammount: 2
       spawnRate: 0.54
-    - attackerPrefab: {fileID: 1118840445539812, guid: 306494ac856b3f143800f43e475254a5,
+    - attackerPrefab: {fileID: 1345712703913490, guid: 429f1f7509516be469f97baa1be7d3f2,
         type: 2}
       ammount: 1
       spawnRate: 0.85
   - attackerSetup:
-    - attackerPrefab: {fileID: 1164972705434826, guid: 25248c97b38aaab4a8ed1b2ada49ee37,
+    - attackerPrefab: {fileID: 1345712703913490, guid: 429f1f7509516be469f97baa1be7d3f2,
         type: 2}
       ammount: 2
       spawnRate: 0.54

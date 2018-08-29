@@ -6,7 +6,7 @@ using UnityEngine;
 public class StructureShop : MonoBehaviour
 {
 	public List<StructureBlueprint> structureBlueprints = new List<StructureBlueprint>();
-	protected StructureBuilder structureBuilder;
+	public StructureBuilder structureBuilder;
 
 	private void Awake()
 	{
@@ -23,9 +23,9 @@ public class StructureShop : MonoBehaviour
 		}
 	}
 
-	public void SellStructure()
+	public void SellStructure(Node selectedNode)
 	{
-
+		
 	}
 
 	public bool HasMoneys(int buildCost)

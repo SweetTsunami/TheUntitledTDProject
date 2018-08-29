@@ -29,7 +29,7 @@ public class UIManager_battle : UIManager
 	{
 		if (SelectedNode)
 		{
-			MoveUI(SelectedNode.GetBuildPosition());
+			MoveUI(SelectedNode.transform);
 			if (SelectedNode.populated)
 			{
 				ToggleUI(structureMenuUI);

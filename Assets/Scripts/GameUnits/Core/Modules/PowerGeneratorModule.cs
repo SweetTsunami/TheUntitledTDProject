@@ -41,7 +41,7 @@ public class PowerGeneratorModule : MonoBehaviour
     //    base.Die();
     //}
 
-    private void PowerUP()
+    public void PowerUP()
     {
         foreach (Node node in nodesInRange)
         {
@@ -50,7 +50,7 @@ public class PowerGeneratorModule : MonoBehaviour
         }
     }
 
-    private void PowerDOWN()
+    public void PowerDOWN()
     {
         foreach (Node node in nodesInRange)
         {

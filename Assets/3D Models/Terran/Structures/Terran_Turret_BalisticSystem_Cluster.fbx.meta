@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 1d616168f8363a84cafa8f9901ff59fc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body.001
+    100004: Body.002
+    100006: CablePiece.000
+    100008: CablePiece.001
+    100010: CablePiece.002
+    100012: Gun
+    100014: Gun.001
+    100016: Gun.002
+    100018: Gun.003
+    100020: Gun.004
+    100022: Gun.005
+    100024: Mounts
+    100026: Mounts.001
+    100028: Mounts.002
+    100030: Radar Mk2
+    100032: Radar Platform
+    100034: //RootNode
+    100036: Turret 1
+    100038: Turret 2
+    100040: Turret 3
+    400000: Body
+    400002: Body.001
+    400004: Body.002
+    400006: CablePiece.000
+    400008: CablePiece.001
+    400010: CablePiece.002
+    400012: Gun
+    400014: Gun.001
+    400016: Gun.002
+    400018: Gun.003
+    400020: Gun.004
+    400022: Gun.005
+    400024: Mounts
+    400026: Mounts.001
+    400028: Mounts.002
+    400030: Radar Mk2
+    400032: Radar Platform
+    400034: //RootNode
+    400036: Turret 1
+    400038: Turret 2
+    400040: Turret 3
+    2100000: MetalLight
+    2100002: DarkMetal
+    2100004: LightMetal
+    2100006: PrimaryColor
+    2100008: SecondaryColor
+    2100010: Lens
+    2300000: Body
+    2300002: Body.001
+    2300004: Body.002
+    2300006: CablePiece.000
+    2300008: CablePiece.001
+    2300010: CablePiece.002
+    2300012: Gun
+    2300014: Gun.001
+    2300016: Gun.002
+    2300018: Gun.003
+    2300020: Gun.004
+    2300022: Gun.005
+    2300024: Mounts
+    2300026: Mounts.001
+    2300028: Mounts.002
+    2300030: Radar Mk2
+    2300032: Radar Platform
+    2300034: Turret 1
+    2300036: Turret 2
+    2300038: Turret 3
+    3300000: Body
+    3300002: Body.001
+    3300004: Body.002
+    3300006: CablePiece.000
+    3300008: CablePiece.001
+    3300010: CablePiece.002
+    3300012: Gun
+    3300014: Gun.001
+    3300016: Gun.002
+    3300018: Gun.003
+    3300020: Gun.004
+    3300022: Gun.005
+    3300024: Mounts
+    3300026: Mounts.001
+    3300028: Mounts.002
+    3300030: Radar Mk2
+    3300032: Radar Platform
+    3300034: Turret 1
+    3300036: Turret 2
+    3300038: Turret 3
+    4300000: CablePiece.002
+    4300002: Radar Platform
+    4300004: Radar Mk2
+    4300006: Turret 3
+    4300008: Body.002
+    4300010: Mounts.002
+    4300012: Gun.005
+    4300014: Gun.004
+    4300016: Turret 2
+    4300018: Body.001
+    4300020: Mounts.001
+    4300022: Gun.003
+    4300024: Gun.002
+    4300026: Turret 1
+    4300028: Body
+    4300030: Mounts
+    4300032: Gun.001
+    4300034: Gun
+    4300036: CablePiece.000
+    4300038: CablePiece.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

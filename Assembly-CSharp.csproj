@@ -61,6 +61,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AstarPathfindingProject\Behaviors\AIDestinationSetter.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Behaviors\Patrol.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\IAstarAI.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphUtilities.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOAgent.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOCoreObstacle.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOCoreSimulator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOLine.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOQuadtree.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAnimation.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Legacy\MiscLegacy.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\PackageTools\EnumFlagAttribute.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\PackageTools\UniqueComponentAttribute.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\changelog.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\Core\AI\AIBase.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\Core\AI\AILerp.cs" />
@@ -175,11 +188,13 @@
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_PlasmaThrower.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier1\Terran_RocketLauncher.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier2\Terran_Mortar.cs" />
+    <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier2\Terran_Structure_SupportPlatform.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier3\Terran_155mm_artillery.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Turrets\Tier3\Terran_Gauss_Cannon.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Utility Structures\Powerfield Tower\Terran_MiningBase.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Structures\Utility Structures\Powerfield Tower\Terran_PowerBase.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Units\Tier1\Terran_APC.cs" />
+    <Compile Include="Assets\Scripts\GameUnits\Terran\Units\Tier1\Terran_APC_Rocket.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Units\Tier1\Terran_LaserTank.cs" />
     <Compile Include="Assets\Scripts\GameUnits\Terran\Units\Tier1\Terran_ScoutCar.cs" />
     <Compile Include="Assets\Scripts\Managers\GameMaster.cs" />
@@ -200,6 +215,8 @@
     <Compile Include="Assets\Scripts\Obsolete\WaveSpawner_old.cs" />
     <Compile Include="Assets\Scripts\Player\Inventory.cs" />
     <Compile Include="Assets\Scripts\Prototypes\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Prototypes\SampleButton.cs" />
+    <Compile Include="Assets\Scripts\Prototypes\SimpleObjectPool.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AttackerSpawnTemplate_SO.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\StructureBlueprint.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Tech.cs" />

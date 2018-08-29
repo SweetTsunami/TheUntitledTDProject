@@ -148,12 +148,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1986991728635290}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00053830043, y: 0.67449063, z: -0.38587788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0005378425, y: 0.25034943, z: -0.28041354}
   m_LocalScale: {x: 0.7989429, y: 0.99992, z: 0.7989429}
   m_Children: []
-  m_Father: {fileID: 4299695416444224}
-  m_RootOrder: 1
+  m_Father: {fileID: 4332708701769048}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4299695416444224
 Transform:
@@ -166,7 +166,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4332708701769048}
-  - {fileID: 4234605494649512}
   m_Father: {fileID: 4467123073095288}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -182,6 +181,7 @@ Transform:
   m_Children:
   - {fileID: 4160620745922610}
   - {fileID: 4436187715293038}
+  - {fileID: 4234605494649512}
   m_Father: {fileID: 4299695416444224}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -205,7 +205,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1446828578992300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 22, y: 0, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4299695416444224}
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coreStats:
-    HP_maximum: 160
+    HP_maximum: 240
     HP_regeneration: 0
     shield: 0
     unitArmor: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  uniqueID: 6332877409675119288
+  uniqueID: 1733567003778078507
   updateError: 1
   checkTime: 0.2
 --- !u!114 &114659673019253628
@@ -490,6 +490,7 @@ MonoBehaviour:
   rateOfFire: 1
   range: 10
   partToRotate: {fileID: 4299695416444224}
+  partToElevate: {fileID: 4332708701769048}
   rotationSpeed: 50
   firePoints:
   - {fileID: 4160620745922610}

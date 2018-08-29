@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: a353a417f84454d43933fb79a5da990f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Barrel.001
+    100004: Box
+    100006: Box1
+    100008: Crane
+    100010: LauncherHolder
+    100012: Launchers
+    100014: MiningTower
+    100016: MiningTower.001
+    100018: Platform
+    100020: RocketPlatform
+    100022: //RootNode
+    400000: Barrel
+    400002: Barrel.001
+    400004: Box
+    400006: Box1
+    400008: Crane
+    400010: LauncherHolder
+    400012: Launchers
+    400014: MiningTower
+    400016: MiningTower.001
+    400018: Platform
+    400020: RocketPlatform
+    400022: //RootNode
+    2100000: MetalDark
+    2100002: MetalLight
+    2100004: PrimaryColor
+    2100006: SecondaryColor
+    2100008: MetalLight.001
+    2100010: MetalDark.001
+    2100012: BlueLight.001
+    2100014: PrimaryColor.001
+    2100016: BlueLight
+    2100018: Lens
+    2300000: Barrel
+    2300002: Barrel.001
+    2300004: Box
+    2300006: Box1
+    2300008: Crane
+    2300010: LauncherHolder
+    2300012: Launchers
+    2300014: MiningTower
+    2300016: MiningTower.001
+    2300018: Platform
+    2300020: RocketPlatform
+    3300000: Barrel
+    3300002: Barrel.001
+    3300004: Box
+    3300006: Box1
+    3300008: Crane
+    3300010: LauncherHolder
+    3300012: Launchers
+    3300014: MiningTower
+    3300016: MiningTower.001
+    3300018: Platform
+    3300020: RocketPlatform
+    4300000: Platform
+    4300002: Barrel.001
+    4300004: MiningTower.001
+    4300006: Box
+    4300008: Crane
+    4300010: RocketPlatform
+    4300012: LauncherHolder
+    4300014: Launchers
+    7400000: LauncherHolder|LauncherHolderAction
+    7400002: LauncherHolder|PlatformAction
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

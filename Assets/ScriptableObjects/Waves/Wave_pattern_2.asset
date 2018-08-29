@@ -15,25 +15,25 @@ MonoBehaviour:
   description: First testing wave pattern
   waveSetup:
   - attackerSetup:
-    - attackerPrefab: {fileID: 1164972705434826, guid: 25248c97b38aaab4a8ed1b2ada49ee37,
+    - attackerPrefab: {fileID: 1627057393286870, guid: c58eb09f22acdec46936503d4b94f090,
         type: 2}
       ammount: 2
-      spawnRate: 0.54
-    - attackerPrefab: {fileID: 1345712703913490, guid: 429f1f7509516be469f97baa1be7d3f2,
+      spawnRate: 0.91
+    - attackerPrefab: {fileID: 1627057393286870, guid: c58eb09f22acdec46936503d4b94f090,
         type: 2}
       ammount: 1
       spawnRate: 0.85
   - attackerSetup:
-    - attackerPrefab: {fileID: 1345712703913490, guid: 429f1f7509516be469f97baa1be7d3f2,
+    - attackerPrefab: {fileID: 1627057393286870, guid: c58eb09f22acdec46936503d4b94f090,
         type: 2}
-      ammount: 2
+      ammount: 4
       spawnRate: 0.54
   - attackerSetup:
-    - attackerPrefab: {fileID: 1164972705434826, guid: 25248c97b38aaab4a8ed1b2ada49ee37,
+    - attackerPrefab: {fileID: 1627057393286870, guid: c58eb09f22acdec46936503d4b94f090,
         type: 2}
       ammount: 3
       spawnRate: 0.54
-    - attackerPrefab: {fileID: 1118840445539812, guid: 306494ac856b3f143800f43e475254a5,
+    - attackerPrefab: {fileID: 1627057393286870, guid: c58eb09f22acdec46936503d4b94f090,
         type: 2}
       ammount: 3
       spawnRate: 0.85

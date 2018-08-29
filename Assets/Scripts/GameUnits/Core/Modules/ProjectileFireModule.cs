@@ -27,6 +27,9 @@ public class ProjectileFireModule : MonoBehaviour
 	public float range = 15f;
 
 	public Transform partToRotate;
+	public Transform partToElevate;
+	public float maxElevation;
+	public float minElevation;
 	public float rotationSpeed = 50f;
 	public List<Transform> firePoints = new List<Transform>();
 	public FirePointSystem firePointSystem;
@@ -109,9 +112,19 @@ public class ProjectileFireModule : MonoBehaviour
 		{
 			Vector3 direction = target.transform.position - transform.position;
 			Quaternion lookRotation = Quaternion.LookRotation(direction);
+
 			Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * rotationSpeed).eulerAngles;
+			Vector3 elevation = Quaternion.Lerp(partToElevate.rotation, lookRotation, Time.deltaTime * rotationSpeed).eulerAngles;
+
 			// y axis is the pointing one atm
-			partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+			if (partToRotate != null)
+			{
+				partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+				if (partToElevate != null)
+				{
+					partToElevate.rotation = Quaternion.Euler(Mathf.Clamp(elevation.x,minElevation,maxElevation), rotation.y, 0f);
+				}
+			}
 		}
 	}
 

@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AstarPathfindingProject\Editor\AILerpEditor.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EditorBase.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EnumFlagDrawer.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\Editor\AIBaseEditor.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\Editor\AnimationLinkEditor.cs" />
     <Compile Include="Assets\Imported\AstarPathfindingProject\Editor\AstarPathEditor.cs" />

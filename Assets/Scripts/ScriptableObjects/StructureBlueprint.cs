@@ -8,7 +8,7 @@ public class StructureBlueprint : ScriptableObject
 	public string description;
 	public int buildCost;
 
-	public Sprite artwork;
+	public Sprite icon;
 
 	public GameObject prefab;
 }

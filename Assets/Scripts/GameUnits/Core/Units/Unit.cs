@@ -8,6 +8,7 @@
  */
  
 using UnityEngine;
+using Pathfinding;
 
 /// <summary>
 /// Handles the base behavior of attackers
@@ -20,7 +21,7 @@ public class Unit : GameUnit
     /// aiPath          - the script for pathing
     /// </summary>
     protected Transform target;
-    protected AIPath aiPath;
+	protected AIDestinationSetter aiPath;
 	
     // speed of enemy
     public float speed = 10f;
@@ -39,12 +40,12 @@ public class Unit : GameUnit
     {
         base.SetUpTheGameUnit();
 
-        aiPath = GetComponent<AIPath>();
-        aiPath.speed = speed;
+        aiPath = GetComponent<AIDestinationSetter>();
+        aiPath.newSpeed = speed;
     }
     public void Slow(float pct)
     {
-        aiPath.speed = speed * (1f - pct);
+		aiPath.newSpeed = speed * (1f - pct);
     }
 
     /// <summary>

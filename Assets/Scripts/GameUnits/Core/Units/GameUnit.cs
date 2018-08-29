@@ -58,7 +58,7 @@ public class GameUnit : MonoBehaviour
     /// </summary>
     protected virtual void SetUpTheGameUnit()
     {
-        inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
+       //  inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
 		
         coreStats.HP_current = coreStats.HP_maximum;
     }
